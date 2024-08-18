@@ -1,0 +1,10 @@
+{
+  "name": "todoify",
+  "main": "index.js",
+  "license": "ISC",
+  "workspaces": [
+    "api",
+    "database",
+    "web"
+  ]
+}
