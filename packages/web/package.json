@@ -1,0 +1,67 @@
+{
+  "name": "@packages/web",
+  "version": "0.1.0",
+  "private": true,
+  "nx": {
+    "targets": {
+      "start": {
+        "executor": "nx:run-commands",
+        "options": {
+          "command": "react-scripts start",
+          "cwd": "packages/web"
+        }
+      },
+      "build": {
+        "executor": "nx:run-commands",
+        "options": {
+          "command": "react-scripts build",
+          "cwd": "packages/web"
+        }
+      },
+      "test": {
+        "executor": "nx:run-commands",
+        "options": {
+          "command": "react-scripts test",
+          "cwd": "packages/web"
+        }
+      },
+      "eject": {
+        "executor": "nx:run-commands",
+        "options": {
+          "command": "react-scripts eject",
+          "cwd": "packages/web"
+        }
+      }
+    }
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "create-react-app": "^5.0.1"
+  }
+}

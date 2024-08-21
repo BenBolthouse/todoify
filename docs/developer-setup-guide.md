@@ -4,7 +4,7 @@ This section is a step-by-step instruction on how to configure your development 
 
 ## VS Code
 
-Using VS Code as our editor has some benefits over using Visual Studio. Because our project is a
+Using VS Code as our editor has benefits over using Visual Studio. Because our project is a
 [monorepo](https://en.wikipedia.org/wiki/Monorepo) consisting of projects with various programming languages, build
 systems, package managers, code analysis tools (etc.), we need a versatile and configurable editor.
 

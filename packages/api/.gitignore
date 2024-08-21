@@ -1,0 +1,7 @@
+bin
+obj
+
+
+
+.nx/cache
+.nx/workspace-data
